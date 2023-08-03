@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bt ve table & form</title>
+</head>
+<body>
+        
+    <body>
+        <table border="2">
+           
+                <thead>
+            <tr>
+                <th colspan="2">Đăng kí</th>
+            </tr>
+            </thead>
+
+                <tbody>
+            <tr>
+                <td>Full name</td>
+                <th><input type="name" placeholder="Nhập fullname"></th>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <th><input type="name" placeholder="Nhập tên"></th>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <th><input type="password" placeholder="Nhập Password"></th>
+            </tr>
+            <tr>
+                <td>Nhap lai Password</td>
+                <th><input type="password" placeholder="Nhập lại Password"></th>
+            </tr>
+            <tr>
+                <td>Gioi tinh</td>
+                <td><form action="nhan">
+                    <input type="radio" id="Nam" name="gioitinh" value="Nam">
+                    <label for="Nam">Nam</label>
+                    <input type="radio" id="Nữ" name="gioitinh" value="Nữ">
+                    <label for="Nữ">Nữ</label><br>
+                    </form></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td>
+                    <form action="action"> 
+                        <select>
+                        <option value="ngay1">Ngày 1</option>
+                        <option value="ngay2">Ngày 2</option>
+                        </select>
+                        <select>
+                            <option value="thang1">Tháng 1</option>
+                            <option value="thang 2">Tháng 2</option>
+                        </select>
+                        <select>
+                            <option value="nam">năm 2015</option>
+                            <option value="nam1">năm 2016</option>
+                        </select>   
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ</td>
+                <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>Avatar</td>
+                <td>
+                   <input type="file">
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích </td>
+                <td>
+                    <input type="checkbox" name="xemphim"/><label>Xem phim</label>
+                    <input type="checkbox" name="the thao"/><label>Thể Thao</label>
+                    <input type="checkbox" name="web"/><label>web</label>
+                </td>
+            </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr><td colspan="2"; style="text-align: center;" ><button>Reset</button>
+                        <button>OK</button></td></tr>
+                
+                </tfoot>
+
+        </table>
+
+</body>
+</html>
